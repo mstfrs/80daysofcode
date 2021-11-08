@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(221, 221, 221);
+    font-family: 'Prompt', sans-serif;
+}
+i{
+    color: rgb(20, 151, 238);
+    
+}
+header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.1rem;
+    background-color: white;
+    box-shadow: 2px 2px 6px #000;
+    padding: 0rem 1rem;
+   
+}
+#title{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+span{
+    color: rgb(20, 151, 238);
+}
+#links{
+    display: flex;
+    list-style-type: none;
+    
+}
+li{
+    margin-left: 1rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+li:hover{
+    color: rgb(20, 151, 238);
+    transition-duration:0.5s
+
+}
+i{
+    margin-left: 1rem;
+}
+
+    
+
